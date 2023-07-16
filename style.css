@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: #fefefe;
+    background-image: url('nature.jpg');
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: auto;
+    height: 70px;
+    color: #fefefe;
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fefefe55; */
+}
+button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 189, 243, 0.819);
+    color: #fefefe;
+    cursor: pointer;
+}
+.navbar--menu a{
+    text-decoration: none;
+    color: rgb(233, 232, 232);
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.navbar--name {
+    font-size: 40px;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+.navbar--button{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.main--content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main--content p{
+    color: #fefefe;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.main--content h1{
+    color: #fefefe;
+    font-size: 75px;
+    font-family: sans-serif;
+}
